@@ -22,7 +22,7 @@ comment in Python
 """ 
 ```
 
-## Simple variables
+## Simple variables
 
 ```console
 $ python3 simplevars.py 
@@ -38,4 +38,27 @@ False
 ```console
 $ python3 lists.py
 [21, 40.5, 'a string']
+```
+
+## Reserved keywords
+
+```console
+$ python3 keywords.py
+['and', 'as', 'assert', 'break', 'class', 'continue', 'def', 'del', 'elif', 'else', 'except', 'exec', 'finally', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'not', 'or', 'pass', 'print', 'raise', 'return', 'try', 'while', 'with', 'yield']
+```
+
+## Functions
+
+```console
+$ python3 functions.py
+hello
+hello again
+```
+
+## The main function
+
+```console
+$ python3 main.py     
+Started
+3
 ```
