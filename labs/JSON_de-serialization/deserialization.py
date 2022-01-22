@@ -10,8 +10,8 @@ print(spacex_mission.mission_name)
 
 # JSON array
 spacex_missions_json = '[{"mission_name": "Crew-3", "mission_id": "2", "payload_ids": ["Payload1", "Payload2"]}, {"mission_name": "Inspiration-4", "mission_id": "1", "payload_ids": ["Payload1", "Payload2"]}]'
-spacex_missions_array = json.loads(spacex_missions_json)
-spacex_missions = [SpaceXMission(**mission) for mission in spacex_missions_array]
+spacex_missions_dict_array = json.loads(spacex_missions_json)
+spacex_missions = [SpaceXMission(**mission) for mission in spacex_missions_dict_array]
 for mission in spacex_missions:
     print(mission.mission_name)
     print(mission.mission_id)
