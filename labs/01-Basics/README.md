@@ -63,9 +63,3 @@ Started
 3
 ```
 
-## Namespaces
-
-```console
-$ python3 namespaces.py
-18
-```
